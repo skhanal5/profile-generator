@@ -6,7 +6,7 @@ const axios = require("axios");
 const bodyParser = require("body-parser");
 const app = express();
 const portNumber = 5000;
-require("dotenv").config({path: path.resolve(__dirname, './confidential/.env')})
+require("dotenv").config({path: path.resolve(__dirname, '.env')})
 const userName = process.env.MONGO_DB_USERNAME
 const password = process.env.MONGO_DB_PASSWORD
 const databaseAndCollection = {db: process.env.MONGO_DB_NAME, collection: process.env.MONGO_COLLECTION};
