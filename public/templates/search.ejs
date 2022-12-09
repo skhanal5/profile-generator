@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Home </title>
+        <link rel="stylesheet" href="/styles/styles.css">
+    </head>
+    <body>
+        <div class="block">
+            <div class="card">
+                <div class="title">Search Existing Profile</div>
+                <div class="content">
+                    Pass in an existing profile's first name and password and view the results!
+                </div>
+                <br>
+                <br>
+                <form action="/searchUser" method="post">
+                    First Name: <input class="input" type="text" name="firstname">
+                    <br>
+                    <br>
+                    Last Name: <input class="input" type="text" name="lastname">
+                    <br>
+                    <input class="btn1" type="submit" value="Search Profile!">
+                </form>
+                <br>
+                <br>
+                <br>
+                Want to create another user or go back home?
+                <form action="/" method="get">
+                    <input class="btn2" type="submit" value="Return Home">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

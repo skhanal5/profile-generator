@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Home </title>
+        <link rel="stylesheet" type="text/css" href="/styles/styles.css">
+    </head>
+    <body>
+        <div class="block">
+            <div class="card">
+                <div class="title">Simple Profile Generator</div>
+                <div class="content">
+                    Enter some details about yourself and generate
+                    a profile based off of that information. This includes
+                    an avatar, gender, race/ethnicity, age, and more.
+                </div>
+                <br>
+                <form action="/profile" method="post">
+                    First Name: <input class="input" type="text" name="firstname">
+                    <br>
+                    <br>
+                    Last Name: <input class="input" type="text" name="lastname">
+                    <br>
+                    <input class="btn1" type="submit" value="Create Profile!">
+                </form>
+                <br>
+                Already have a user?
+                <br>
+                <form action="/search" method="get">
+                    <input class="btn2" type="submit" value="Look up existing user">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

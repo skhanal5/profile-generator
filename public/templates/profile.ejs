@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Home </title>
+        <link rel="stylesheet" href="/styles/styles.css">
+    </head>
+    <body>
+        <div class="block">
+            <div class="card">
+                <div class="title">Your Profile</div>
+                <div class="content">
+                    Here are the generated results based off of your input.
+                </div>
+                <br>
+                <img src="<%- avatar %>" class="avi" alt="your avatar">
+                <div class="result">
+                    First Name: <%- firstname %>
+                    <br>
+                    Last Name: <%- lastname %>
+                    <br>
+                    Age: <%- age %>
+                    <br>
+                    Gender: <%- gender %>
+                    <br>
+                    Race or Ethnicity: <%- ethnicity %>
+                    <br>
+                    Your Quote: <%- quote %>
+                </div>
+                <br>
+                <form action="/" method="get">
+                    <input class="btn2" type="submit" value="Return Home">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
