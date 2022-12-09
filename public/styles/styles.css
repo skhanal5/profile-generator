@@ -31,10 +31,7 @@ body {
     background-color: #F9F8F8;
     width: 700px;
     height: 700px;
-    display: inline-block;
     border-radius: 10px;
-    border-radius: 10px;
-    box-sizing: border-box;
     margin: 15px 15px;
     padding: 30px;
     box-shadow: 0 2px 4px rgba(0,0,0,.15);
@@ -46,7 +43,6 @@ body {
     background-color: rgba(0,0,0,0.5);
     color:rgb(255, 255, 255);
 }
-
 .content{
     margin-top: 30px;
     border-radius: 10px;
