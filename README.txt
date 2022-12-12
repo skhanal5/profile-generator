@@ -5,5 +5,5 @@ API-Links:
     2) https://premium.zenquotes.io/zenquotes-documentation/
     3) https://agify.io/
     4) https://avatars.dicebear.com/docs
-YouTube Video: https://www.youtube.com/watch?v=7YPfRUE0g2E
+YouTube Video: https://youtu.be/l6TfA96acU4
 Deployment: https://profile-generation.onrender.com/
